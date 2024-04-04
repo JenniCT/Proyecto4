@@ -1,0 +1,33 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family:'Tw Cen MT';
+
+}
+
+article{
+    
+    padding: 20px 20px 20px 20px;
+    width: 100%;
+    min-width: 100%;
+    box-shadow: 10px;
+
+}
+footer{
+    background-color: black;
+    color:thistle;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+article .Paisajes img{
+    width: 200px;
+}
+
+.Paisajes{
+    border: 1px solid blue;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 5px black, -2px -2px 5px gray;
+}
