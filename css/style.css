@@ -31,3 +31,17 @@ article .Paisajes img{
     padding: 10px 10px 10px 10px;
     box-shadow: 2px 2px 5px black, -2px -2px 5px gray;
 }
+.card {
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fadeInAnimation ease 1s forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
